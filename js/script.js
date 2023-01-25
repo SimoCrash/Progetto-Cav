@@ -1,28 +1,46 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+const trattementi = [
+  'Manicure',
+  'Pedicure',
+  'Depilazione Laser',
+  'Lampada',
+  'Ceretta a caldo',
+  'Ceretta a freddo',
+  'Ceretta araba',
+  'Ceretta nera',
+  'Ceretta a rullo'
+];
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+let text = '';
+for (let i = 0; i < trattementi.length; i++){
+  text += trattementi[i] + '<br>'
 }
+document.getElementById("demo").innerHTML = text;
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+const costi = [
+  5.00,
+  7.00,
+  25.00,
+  20.00,
+  7.00,
+  12.00,
+  8.00,
+  7.00,
+  5.00
+]
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+let costo = '';
+for (let i = 0; i < costi.length; i++){
+  costo += costi[i] + '<br>'
 }
+document.getElementById("demo1").innerHTML = costo;
+
+
+
+// const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+// let text = "";
+// for (let i = 0; i < cars.length; i++) {
+//   text += cars[i] + "<br>";
+// }
+
+// document.getElementById("demo").innerHTML = text;

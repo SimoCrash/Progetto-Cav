@@ -161,3 +161,11 @@ footer a {
 .follow-icon a {
     color: #F7C7D5;
 }
+
+#demo, #demo1 {
+    display: inline-block;
+}
+
+.list-tratt {
+    margin: auto;
+}
