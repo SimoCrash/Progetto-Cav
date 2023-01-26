@@ -162,10 +162,19 @@ footer a {
     color: #F7C7D5;
 }
 
-#demo, #demo1 {
-    display: inline-block;
-}
+
+
+
+
+
+/* #demo, #demo1 {
+    display: flex;
+} */
 
 .list-tratt {
-    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 1.5rem;
+    color: #BFAF8D;
 }
