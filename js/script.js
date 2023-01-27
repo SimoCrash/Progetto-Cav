@@ -17,15 +17,15 @@ for (let i = 0; i < trattementi.length; i++){
 document.getElementById("demo").innerHTML = text;
 
 const costi = [
-  5.00,
-  7.00,
-  25.00,
-  20.00,
-  7.00,
-  12.00,
-  8.00,
-  7.00,
-  5.00
+  '5.00 €',
+  '7.00 €',
+  '25.00 €',
+  '20.00 €',
+  '7.00 €',
+  '12.00 €',
+  '8.00 €',
+  '7.00 €',
+  '5.00 €'
 ]
 
 let costo = '';

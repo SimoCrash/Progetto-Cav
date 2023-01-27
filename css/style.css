@@ -167,14 +167,22 @@ footer a {
 
 
 
-/* #demo, #demo1 {
-    display: flex;
-} */
+
 
 .list-tratt {
     display: flex;
     justify-content: space-between;
     width: 500px;
+    margin: 2rem auto;
     font-size: 1.5rem;
     color: #BFAF8D;
+    padding: 2rem;
+}
+
+#demo, #demo1 {
+    line-height: 3rem;
+}
+
+.img- {
+    height: 35px;
 }
