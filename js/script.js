@@ -49,3 +49,9 @@ function cambiaSelect(param){
         menu.style.display = "none";
     }
 }
+
+
+
+
+const d = new Date();
+document.getElementById("last").innerHTML = d;
