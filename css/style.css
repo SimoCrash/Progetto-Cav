@@ -14,7 +14,7 @@
 }
 
 .header-top img {
-    min-width: 0;
+    max-width: 100%;
 }
 
 .list-menu {
@@ -101,7 +101,7 @@ footer a {
 }
 
 .why-we, .secretariat, .customers {
-    width: 20%;
+    width: 30%; 
     margin: 30px 90px;
 }
 
@@ -160,6 +160,8 @@ footer a {
 
 .map iframe {
     margin: 2rem;
+    width: 600px; 
+    height: 450px;
 }
 
 .contacts {
@@ -285,6 +287,33 @@ footer a {
         margin: auto;
         padding-bottom: 30px;
     }
+
+    /* MAIN TRATTAMENTI */
+
+.list-tratt {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    color: #BFAF8D;
+    padding: 2rem;
+}
+
+#demo, #demo1 {
+    line-height: 3rem;
+}
+
+.img- {
+    height: 35px;
+}
+
+/* MAIN CONTATTI */
+
+.map iframe {
+    margin: 2rem;
+    width: 90%;
+}
 }
 @media screen and (min-width: 481px) and (max-width: 769px)
 {
@@ -304,6 +333,9 @@ footer a {
 .list-menu {
     display: none;
 }
+
+
+/* MAIN INDEX */
 
 .d-none {
     display: block;
@@ -362,6 +394,34 @@ footer a {
     margin: auto;
     padding-bottom: 30px;
 }
+
+/* MAIN TRATTAMENTI */
+
+.list-tratt {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    color: #BFAF8D;
+    padding: 2rem;
+}
+
+#demo, #demo1 {
+    line-height: 3rem;
+}
+
+.img- {
+    height: 35px;
+}
+
+/* MAIN CONTATTI */
+
+.map iframe {
+    margin: 2rem;
+    width: 70%;
+}
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px)
