@@ -312,7 +312,14 @@ footer a {
 
 .map iframe {
     margin: 2rem;
-    width: 90%;
+    max-width: 90%;
+}
+
+.office {
+    padding-top: 2rem;
+    max-width: 70%;
+    margin: auto;
+    display: block;
 }
 }
 @media screen and (min-width: 481px) and (max-width: 769px)
@@ -420,6 +427,13 @@ footer a {
 .map iframe {
     margin: 2rem;
     width: 70%;
+}
+
+.office {
+    padding-top: 2rem;
+    max-width: 70%;
+    margin: auto;
+    display: block;
 }
 
 }
