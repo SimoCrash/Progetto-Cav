@@ -212,14 +212,76 @@ footer a {
 
 @media screen and (min-width: 321px) and (max-width: 481px)
 {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .header-top {
+        background: linear-gradient(#F7C7D5, #ffffff);
+    }
+    
+    .list-menu {
+        display: none;
+    }
+    
     .d-none {
         display: block;
         margin: auto;
         text-decoration: none;
         color: #855269;
     }
-    .list-menu {
+    
+    .d-none i {
+        font-size: 2rem;
+    }
+    
+    .d-none-hamburger {
         display: none;
+        margin: auto;
+        text-decoration: none;
+        color: #855269;
+    }
+    
+    .d-none-hamburger li {
+        list-style: none;
+    }
+    
+    .d-none-hamburger a {
+        text-decoration: none;
+    }
+    
+    .main-top {
+        margin: 100px auto;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .container-text img {
+        max-width: 300px;
+        max-height: 400px;
+        margin: 0;
+    }
+    
+    .container-text {
+        display: block;
+        text-align: center;
+    }
+    
+    .container-secretariat {
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    
+    .container-text-img {
+        padding-top: 30px;
+    }
+    
+    .why-we, .secretariat, .customers {
+        width: 50%;
+        margin: auto;
+        padding-bottom: 30px;
     }
 }
 @media screen and (min-width: 481px) and (max-width: 769px)
@@ -227,7 +289,7 @@ footer a {
  /* GENERAL RULES */
 
 
- *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
