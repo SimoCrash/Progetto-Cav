@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Millennials Beauty</title>
 
+    <script src="js/script.js" defer></script>
+
     <!-- file css -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -23,6 +25,12 @@
             <a href="trattamenti.html"><li><h1>Trattamenti</h1></li></a>
             <a href="contatti.html"><li><h1>Contatti</h1></li></a>
         </ul>
+        <div id="menu-toggle" onclick="toggleMenu()" class="d-none"><i class="fa-solid fa-bars"></i></div>
+        <ul id="menu" class="d-none-hamburger">
+            <a href="index.html"><li><h3>Home</h3></li></a>
+            <a href="trattamenti.html"><li><h3>Trattamenti</h3></li></a>
+            <a href="contatti.html"><li><h3>Contatti</h3></li></a>
+        </ul>
     </header>
     <main>
         <div class="main-top">
@@ -35,7 +43,9 @@
         </div>
         <div class="main-bottom">
             <div class="container-text">
-                <img src="img/remise_in_forme.jpg" alt="">
+                <div class="container-text-img">
+                    <img src="img/remise_in_forme.jpg" alt="">
+                </div>
                 <div class="why-we">
                     <h1>Perche Scegliere Noi?</h1>
                     <p>Professionalità e cura del cliente fanno di Veraestetica un centro affidabile per l’estetica grazie alla qualità dei prodotti e dei servizi offerti.</p>
@@ -48,10 +58,14 @@
                     <p>Professionalità e cura del cliente fanno di Veraestetica un centro affidabile per l’estetica grazie alla qualità dei prodotti e dei servizi offerti.</p>
                     <button>Prenota un appuntamento</button>
                 </div>
-                <img src="img/veraestetica-centro-estetico-civita-castellana.jpg" alt="">
+                <div class="container-text-img">
+                    <img src="img/veraestetica-centro-estetico-civita-castellana.jpg" alt="">
+                </div>
             </div>
-            <div class="container-text">
-                <img src="img/veraestetica-centro-estetico-estetista.jpg" alt="">
+            <div class="container-text" id="prova">
+                <div class="container-text-img">
+                    <img src="img/veraestetica-centro-estetico-estetista.jpg" alt="">
+                </div>
                 <div class="customers">
                     <h1>Cura dei clienti</h1>
                     <p>Professionalità e cura del cliente fanno di Veraestetica un centro affidabile per l’estetica grazie alla qualità dei prodotti e dei servizi offerti.</p>

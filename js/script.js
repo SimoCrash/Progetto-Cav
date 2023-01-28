@@ -35,12 +35,17 @@ for (let i = 0; i < costi.length; i++){
 document.getElementById("demo1").innerHTML = costo;
 
 
+// this.location.href è una proprietà dell'oggetto JavaScript location che rappresenta l'URL attuale della pagina web. Il valore di questa proprietà può essere letto o impostato per navigare verso una nuova pagina. Ad esempio, per reindirizzare l'utente verso una nuova pagina si può utilizzare il codice this.location.href = 'http://www.example.com'.
 
-// const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+function cambiaSelect(param){
+  this.location.href=param;
+  }
 
-// let text = "";
-// for (let i = 0; i < cars.length; i++) {
-//   text += cars[i] + "<br>";
-// }
-
-// document.getElementById("demo").innerHTML = text;
+  function toggleMenu() {
+    var menu = document.getElementById("menu");
+    if (menu.style.display === "none") {
+        menu.style.display = "block";
+    } else {
+        menu.style.display = "none";
+    }
+}

@@ -55,6 +55,14 @@ footer a {
     color: black;
 }
 
+.d-none {
+    display: none;
+}
+
+.d-none-hamburger {
+    display: none;
+}
+
 
 
 /* MAIN INDEX*/
@@ -90,7 +98,7 @@ footer a {
 
 .why-we, .secretariat, .customers {
     width: 20%;
-    margin: 30px 200px;
+    margin: 30px 90px;
 }
 
 .main-bottom button {
@@ -108,6 +116,27 @@ footer a {
 
 .container-secretariat button {
     background-color: white;
+}
+
+
+/* MAIN TRATTAMENTI */
+
+.list-tratt {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    color: #BFAF8D;
+    padding: 2rem;
+}
+
+#demo, #demo1 {
+    line-height: 3rem;
+}
+
+.img- {
+    height: 35px;
 }
 
 
@@ -169,20 +198,238 @@ footer a {
 
 
 
-.list-tratt {
+
+
+
+
+
+
+
+@media screen and (max-width: 320px)
+{
+    
+}
+
+@media screen and (min-width: 321px) and (max-width: 481px)
+{
+    .d-none {
+        display: block;
+        margin: auto;
+        text-decoration: none;
+        color: #855269;
+    }
+    .list-menu {
+        display: none;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 769px)
+{
+ /* GENERAL RULES */
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-top {
+    background: linear-gradient(#F7C7D5, #ffffff);
+}
+
+.list-menu {
+    display: none;
+}
+
+.d-none {
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    color: #855269;
+}
+
+.d-none i {
+    font-size: 2rem;
+}
+
+.d-none-hamburger {
+    display: none;
+    margin: auto;
+    text-decoration: none;
+    color: #855269;
+}
+
+.d-none-hamburger li {
+    list-style: none;
+}
+
+.d-none-hamburger a {
+    text-decoration: none;
+}
+
+.main-top {
+    margin: 100px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-text img {
+    max-width: 300px;
+    max-height: 400px;
+    margin: 0;
+}
+
+.container-text {
+    display: block;
+    text-align: center;
+}
+
+.container-secretariat {
     display: flex;
-    justify-content: space-between;
-    width: 500px;
-    margin: 2rem auto;
-    font-size: 1.5rem;
-    color: #BFAF8D;
-    padding: 2rem;
+    flex-direction:column-reverse;
 }
 
-#demo, #demo1 {
-    line-height: 3rem;
+.container-text-img {
+    padding-top: 30px;
 }
 
-.img- {
-    height: 35px;
+.why-we, .secretariat, .customers {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 30px;
 }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px)
+{
+ /* GENERAL RULES */
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .header-top {
+        background: linear-gradient(#F7C7D5, #ffffff);
+    }
+
+    .list-menu {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        max-width: 70%;
+        margin: auto;
+    }
+
+    .main-top {
+        margin: 100px auto;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .container-text img {
+        max-width: 300px;
+        max-height: 400px;
+        margin: 0;
+    }
+
+    .why-we, .secretariat, .customers {
+        width: 20%;
+        margin: 30px 100px;
+    }
+}
+
+/* .d-none {
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    color: #855269;
+}
+.list-menu {
+    display: none;
+}
+
+.container-text img {
+    max-width: 300px;
+    max-height: 400px;
+    margin: 0;
+}
+
+.why-we, .secretariat, .customers {
+    width: 20%;
+    margin: 30px 100px;
+}
+}
+@media screen and (min-width: 481px) and (max-width: 769px)
+{
+.header-top {
+    /* background: linear-gradient(#F7C7D5, #ffffff); */
+    /* text-align: center;
+}
+
+.header-top img {
+    max-width: 100%;
+}
+
+.list-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    max-width: 70%;
+    margin: auto;
+}
+
+.container-text img {
+    max-width: 300px;
+    max-height: 400px;
+    margin: 0;
+}
+
+.why-we, .secretariat, .customers {
+    width: 20%;
+    margin: 30px 100px;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px)
+{ */
+/* GENERAL RULES */
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-top {
+    background: linear-gradient(#F7C7D5, #ffffff);
+}
+
+.list-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    max-width: 70%;
+    margin: auto;
+}
+
+.main-top {
+    margin: 100px auto;
+    text-align: center;
+    max-width: 100%;
+    font-weight: bold;
+}
+
+.container-text img {
+    max-width: 300px;
+    max-height: 400px;
+    margin: 0;
+}
+
+.why-we, .secretariat, .customers {
+    width: 20%;
+    margin: 30px 100px;
+} */ 
