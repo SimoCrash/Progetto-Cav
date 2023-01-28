@@ -8,9 +8,13 @@
 /* HEADER MAIN FOOTER */
 /* GENERAL RULES */
 
-.header-top {
+/* .header-top {
     background: linear-gradient(#F7C7D5, #ffffff);
     text-align: center;
+} */
+
+.header-top img {
+    min-width: 0;
 }
 
 .list-menu {
@@ -205,12 +209,9 @@ footer a {
 
 
 
-@media screen and (max-width: 320px)
-{
-    
-}
 
-@media screen and (min-width: 321px) and (max-width: 481px)
+
+@media screen and (max-width: 481px)
 {
     *{
         margin: 0;
